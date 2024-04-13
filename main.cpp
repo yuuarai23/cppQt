@@ -133,7 +133,6 @@ private:
             return;
         }
 
-        // Операция модификации файла (например, XOR с 8-байтной переменной)
         QByteArray xorKey = QByteArrayLiteral("abcdefgh");
         QByteArray buffer;
         while (!inputFile.atEnd()) {
